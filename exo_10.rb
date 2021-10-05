@@ -1,6 +1,6 @@
 #age et année
 puts "age"
-aanne= gets.chomp.to_i
+anne= gets.chomp.to_i
 annee-=1
 age =0
 while age<=2021
