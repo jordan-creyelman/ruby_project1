@@ -13,6 +13,5 @@ while i<2021
         puts "#{i+1} #{age}  "
     end
     i+=1
-    
 end
    
