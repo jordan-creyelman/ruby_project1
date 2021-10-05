@@ -1,4 +1,4 @@
-#age et année
+#tu avais la moitie de l'age 
 puts "anne utilisateur"
 age= gets.chomp.to_i
 puts "entre le xAn"

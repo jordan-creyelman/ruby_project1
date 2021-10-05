@@ -1,3 +1,4 @@
+#pyramide qui descend
 puts "entre le nombre hauteur de la pyramide"
 nombre = gets.chomp.to_i
 puts "voici la pyramide"
