@@ -1,17 +1,15 @@
 #age et année
 puts "anne utilisateur"
-annee= gets.chomp.to_i
+age= gets.chomp.to_i
 puts "entre le xAn"
-xAn=gets.chomp.to_i
-age =0
-i =annee -1
-while i<2021
-    age +=1
-    if xAn<=age  
-        puts "#{i+1} #{age} il y a #{xAn} j'avais #{age-xAn} "
+xAn=age
+while age>0
+    if age %2 ==0
+      puts "il y a #{xAn} tu avais la moitié de l'âge que tu as aujourd'hui"  
     else
-        puts "#{i+1} #{age}  "
+        puts "il y a #{xAn} ans j'avais #{age}"
     end
-    i+=1
-end
+    age-=1
+    xAn+=1
    
+end

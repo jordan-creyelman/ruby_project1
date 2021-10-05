@@ -1,10 +1,10 @@
 #age et année
-puts "anne utilisateur"
-annee= gets.chomp.to_i
+puts "age"
+aanne= gets.chomp.to_i
+annee-=1
 age =0
-i =annee -1
-while i<2021
+while age<=2021
     age +=1
-    puts "#{i+1} #{age}"
-    i +=1
+    puts "#{annee} #{age}"
+    annee+=1
 end
