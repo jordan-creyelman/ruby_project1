@@ -4,6 +4,6 @@ nombre = gets.chomp.to_i
 puts "voici la pyramide"
 i=1
 while i<=nombre do
-   puts "#{"#"*i}"
+   puts "#{"#"*i} "
    i+=1
 end
