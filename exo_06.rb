@@ -2,7 +2,7 @@
 puts "Entre un nombre"
 number = gets.chomp.to_i
 i=0
-while i<=number
+while i<number
     puts "Bonjour toi !"
     i+=1
 end
