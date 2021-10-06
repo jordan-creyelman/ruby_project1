@@ -1,5 +1,5 @@
 #j'avais x an
-puts "anne utilisateur"
+puts " votre age   "
 age= gets.chomp.to_i
 puts "entre le xAn"
 xAn=0
